@@ -4,9 +4,9 @@ name: Build Android Debug APK
 # Pemicu: Kapan workflow ini akan berjalan?
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
   # Baris ini ditambahkan agar workflow bisa dijalankan secara manual
   workflow_dispatch:
 
